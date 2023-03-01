@@ -1,0 +1,4 @@
+/home/philcrissman/exercism/cpp/space-age/build/CMakeFiles/space-age.dir
+/home/philcrissman/exercism/cpp/space-age/build/CMakeFiles/test_space-age.dir
+/home/philcrissman/exercism/cpp/space-age/build/CMakeFiles/edit_cache.dir
+/home/philcrissman/exercism/cpp/space-age/build/CMakeFiles/rebuild_cache.dir
