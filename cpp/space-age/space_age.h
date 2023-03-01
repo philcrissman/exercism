@@ -21,7 +21,7 @@ namespace space_age
 
         private:
             long long age_in_seconds;
-            std::map<std::string, double> planets = {
+            const std::map<std::string, double> planets = {
                 {"earth", 1.0},
                 {"mercury", 0.2408467},
                 {"venus", 0.61519726},
@@ -31,9 +31,9 @@ namespace space_age
                 {"uranus", 84.016846},
                 {"neptune", 164.79132}
             };
-            double earth_year_in_seconds = 60 * 60 * 24 * 365.25;
+            const double earth_year_in_seconds = 60 * 60 * 24 * 365.25;
             double on_planet(const std::string planet) const {
-                return (age_in_seconds / earth_year_in_seconds / planets.at(planet));
+                return age_in_seconds / earth_year_in_seconds / planets.at(planet);
             }
 
     };
