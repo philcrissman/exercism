@@ -152,38 +152,7 @@ CMakeFiles/reverse-string.dir/reverse_string.cpp.o: ../reverse_string.cpp \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
-  /usr/include/c++/11/bits/basic_string.tcc \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_tempbuf.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/refwrap.h \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/typeinfo \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/c++/11/vector \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/vector.tcc \
-  /usr/include/c++/11/pstl/execution_defs.h
+  /usr/include/c++/11/bits/basic_string.tcc
 
 CMakeFiles/reverse-string.dir/reverse_string_test.cpp.o: ../reverse_string_test.cpp \
   /usr/include/stdc-predef.h \
@@ -1294,43 +1263,13 @@ CMakeFiles/reverse-string.dir/test/tests-main.cpp.o: ../test/tests-main.cpp \
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
-/usr/include/c++/11/bits/regex_compiler.tcc:
+../reverse_string_test.cpp:
 
-/usr/include/c++/11/bits/stl_relops.h:
+/usr/include/c++/11/ostream:
 
-/usr/include/c++/11/bits/stl_algo.h:
+/usr/include/c++/11/bits/unique_ptr.h:
 
-/usr/include/c++/11/cassert:
-
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-/usr/include/c++/11/pstl/execution_defs.h:
-
-/usr/include/c++/11/bits/algorithmfwd.h:
-
-/usr/include/c++/11/bits/std_abs.h:
-
-/usr/include/c++/11/bits/stl_heap.h:
-
-/usr/include/c++/11/bits/uses_allocator.h:
-
-/usr/include/c++/11/bits/refwrap.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/c++/11/typeinfo:
-
-/usr/include/c++/11/bits/hashtable.h:
-
-/usr/include/c++/11/bits/hashtable_policy.h:
-
-/usr/include/endian.h:
-
-/usr/include/stdint.h:
-
-/usr/include/c++/11/bits/ptr_traits.h:
-
-/usr/include/c++/11/bits/erase_if.h:
+../test/catch.hpp:
 
 /usr/include/c++/11/vector:
 
@@ -1354,15 +1293,17 @@ CMakeFiles/reverse-string.dir/test/tests-main.cpp.o: ../test/tests-main.cpp \
 
 /usr/include/c++/11/bits/vector.tcc:
 
-../reverse_string_test.cpp:
+/usr/include/c++/11/cassert:
 
-/usr/include/c++/11/ostream:
+/usr/include/c++/11/bits/stl_algo.h:
 
-/usr/include/c++/11/bits/unique_ptr.h:
-
-../test/catch.hpp:
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
 /usr/include/c++/11/exception:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/c++/11/typeinfo:
 
 /usr/include/c++/11/bits/nested_exception.h:
 
@@ -1426,14 +1367,6 @@ CMakeFiles/reverse-string.dir/test/tests-main.cpp.o: ../test/tests-main.cpp \
 
 /usr/include/c++/11/bits/locale_facets.tcc:
 
-/usr/include/c++/11/bits/codecvt.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h:
-
-/usr/include/c++/11/bits/enable_special_members.h:
-
-/usr/include/c++/11/bits/basic_ios.tcc:
-
 /usr/include/c++/11/ratio:
 
 /usr/include/c++/11/limits:
@@ -1447,6 +1380,42 @@ CMakeFiles/reverse-string.dir/test/tests-main.cpp.o: ../test/tests-main.cpp \
 /usr/include/c++/11/memory:
 
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/11/bits/uses_allocator.h:
+
+/usr/include/c++/11/bits/regex_compiler.tcc:
+
+/usr/include/c++/11/bits/stl_relops.h:
+
+/usr/include/c++/11/bits/refwrap.h:
+
+/usr/include/c++/11/bits/hashtable.h:
+
+/usr/include/c++/11/bits/hashtable_policy.h:
+
+/usr/include/c++/11/bits/codecvt.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h:
+
+/usr/include/c++/11/bits/basic_ios.tcc:
+
+/usr/include/c++/11/bits/enable_special_members.h:
+
+/usr/include/endian.h:
+
+/usr/include/stdint.h:
+
+/usr/include/c++/11/bits/ptr_traits.h:
+
+/usr/include/c++/11/bits/erase_if.h:
+
+/usr/include/c++/11/pstl/execution_defs.h:
+
+/usr/include/c++/11/bits/algorithmfwd.h:
+
+/usr/include/c++/11/bits/std_abs.h:
+
+/usr/include/c++/11/bits/stl_heap.h:
 
 /usr/include/c++/11/cstring:
 
