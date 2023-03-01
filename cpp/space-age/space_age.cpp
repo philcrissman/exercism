@@ -12,40 +12,40 @@ long long space_age::space_age::seconds() const noexcept
 
 double space_age::space_age::on_earth() const noexcept
 {
-    return age_in_seconds / 60.0 / 60.0 / 24.0 / 365.25;
+    return on_planet("earth");
 }
 
 double space_age::space_age::on_mercury() const noexcept
 {
-    return on_earth() / 0.2408467;
+    return on_planet("mercury");
 }
 
 double space_age::space_age::on_venus() const noexcept
 {
-    return on_earth() / 0.61519726;
+    return on_planet("venus");
 }
 
 double space_age::space_age::on_mars() const noexcept
 {
-    return on_earth() / 1.8808158;
+    return on_planet("mars");
 }
 
 double space_age::space_age::on_jupiter() const noexcept
 {
-    return on_earth() / 11.862615;
+    return on_planet("jupiter");
 }
 
 double space_age::space_age::on_saturn() const noexcept
 {
-    return on_earth() / 29.447498;
+    return on_planet("saturn");
 }
 
 double space_age::space_age::on_uranus() const noexcept
 {
-    return on_earth() / 84.016846;
+    return on_planet("uranus");
 }
 
 double space_age::space_age::on_neptune() const noexcept
 {
-    return on_earth() / 164.79132;
+    return on_planet("neptune");
 }
