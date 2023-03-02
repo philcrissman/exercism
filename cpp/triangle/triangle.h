@@ -1,8 +1,15 @@
-#if !defined(TRIANGLE_H)
-#define TRIANGLE_H
+#pragma once
+
+#include <stdexcept>
 
 namespace triangle {
 
-}  // namespace triangle
+    enum class flavor {
+        equilateral,
+        isosceles,
+        scalene
+    };
 
-#endif // TRIANGLE_H
+    flavor kind(double a, double b, double c);
+
+}
