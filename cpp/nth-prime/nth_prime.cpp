@@ -10,7 +10,8 @@ namespace nth_prime {
     {
         if (n == 0)
             throw std::domain_error("We can't find the zeroeth prime, that is not a thing");
-        std::vector<long long> primes {2,3,5};
+        // we'll seed this with the first few primes
+        std::vector<long long> primes {2,3,5,7,11};
         long long p = nth_prime(n, primes);
         return p;
     }
