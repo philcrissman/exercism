@@ -8,34 +8,24 @@
 namespace nth_prime {
     long long nth(long unsigned int n)
     {
+        // kept the guard for the final test case where nth_prime(0) is expected to throw this
         if (n == 0)
             throw std::domain_error("We can't find the zeroeth prime, that is not a thing");
-        // we'll seed this with the first few primes
-        std::vector<long long> primes {2,3};
-        long long p = nth_prime(n, primes);
-        return p;
-    }
+        // we'll seed this with the first couple primes
+        std::vector<long long> primes {2};
+        primes.reserve(n); // I didn't know about this! Thanks
 
-    long long nth_prime(long unsigned int n, std::vector<long long> primes) {
-        if (n <= primes.size()) {
-            return primes[n-1];
-        }
-        else
-        {
-            long long unsigned int max = std::accumulate(primes.begin(), primes.end(), 1, std::multiplies<long long>());
-            for(long long unsigned int i = primes.back()+1; i <= max; i++){
-                bool b = std::all_of(primes.begin(), primes.end(), [i](long long p){ return i % p != 0;});
-                // if i was not evenly divisible by any of the primes we've found so far,
-                // then i must be prime. We'll add it to primes and see if we've reached our target size.
-                if (b) 
-                {
-                    primes.push_back(i);
-                    if (n <= primes.size())
-                        return i;
-                }
+        long long candidate = 3;
+        while (n > primes.size()) {
+            if (std::all_of(primes.begin(), primes.end(), [candidate](long long p){ return candidate % p != 0;})) {
+                primes.push_back(candidate);
             }
-            return nth_prime(n, primes);
+            candidate += 2;
         }
+        // in cases where we are actually asking for the 1st or 2nd prime, we need to actually use
+        // n, not just the last prime. For larger n, since we stop when (!n > primes.size()), 
+        // primes[n-1] should _be_ the last prime
+        return primes[n-1];
     }
 
 }
