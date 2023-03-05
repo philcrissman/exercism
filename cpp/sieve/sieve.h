@@ -1,8 +1,9 @@
-#if !defined(SIEVE_H)
-#define SIEVE_H
+#pragma once
+
+#include <vector>
 
 namespace sieve {
 
-}  // namespace sieve
+    std::vector<int> primes(int n);
 
-#endif // SIEVE_H
+}

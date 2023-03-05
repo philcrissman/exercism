@@ -1,0 +1,4 @@
+/home/philcrissman/exercism/cpp/sieve/build/CMakeFiles/sieve.dir
+/home/philcrissman/exercism/cpp/sieve/build/CMakeFiles/test_sieve.dir
+/home/philcrissman/exercism/cpp/sieve/build/CMakeFiles/edit_cache.dir
+/home/philcrissman/exercism/cpp/sieve/build/CMakeFiles/rebuild_cache.dir
