@@ -2,6 +2,7 @@
 
 #include <numeric>
 #include <algorithm>
+#include <iostream>
 
 namespace sieve {
 
@@ -9,7 +10,7 @@ namespace sieve {
         // our range
         std::vector<int> p(n-1);
         std::iota(p.begin(), p.end(), 2);
-        int i = 0;
+        unsigned int i = 0;
         while(i < p.size()){
             if (p.at(i) == 0)
             {
@@ -19,14 +20,17 @@ namespace sieve {
             {
                 int step = p.at(i);
                 int k = i;
-                while (k <= n)
+                while (k < n)
                 {
                     k += step;
                     p[k] = 0;
                 }
+                i++;
             }
         }
+        auto it = std::remove(p.begin(), p.end(), 0);
+        p.erase(it, p.end());
         return p;
     }
 
-}  // namespace sieve
+} 

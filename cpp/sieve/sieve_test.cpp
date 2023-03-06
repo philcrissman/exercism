@@ -26,7 +26,7 @@ TEST_CASE("find_first_prime")
 
 TEST_CASE("find_primes_up_to_10")
 {
-    const std::vector<int> expected{2, 3, 5, 7};
+    const std::vector<int> expected{2,3,5,7};
 
     const std::vector<int> actual = sieve::primes(10);
 

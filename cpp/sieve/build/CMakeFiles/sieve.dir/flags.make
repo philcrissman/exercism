@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = 
 
-CXX_FLAGS = -g -Wall -Wextra -Wpedantic -Werror
+CXX_FLAGS = -g -Wall -Wextra -Wpedantic -Werror -std=c++20
 
