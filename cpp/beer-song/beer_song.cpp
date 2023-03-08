@@ -17,10 +17,31 @@ namespace beer_song {
             verse = num + " bottles of beer on the wall, ";
             verse += num + " bottles of beer.\n";
             verse += "Take one down and pass it around, ";
-            verse += std::to_string(n-1) + " bottles of beer on the wall.\n";
+            if (n == 2) {
+                verse += "1 bottle of beer on the wall.\n";
+            } else {
+                verse += std::to_string(n-1) + " bottles of beer on the wall.\n";
+            }
+            
         }
        
         return verse;
+    }
+
+    std::string sing(int start, int end)
+    {
+        std::string song("");
+        for (int i = start; i >= end; i--) {
+            song += verse(i);
+            if (i > end) {
+                song += "\n";
+            }
+        }
+        return song;
+    }
+
+    std::string sing(int start) {
+        return sing(start, 0);
     }
 
 }  // namespace beer_song
