@@ -1,0 +1,4 @@
+/home/philcrissman/exercism/cpp/beer-song/build/CMakeFiles/beer-song.dir
+/home/philcrissman/exercism/cpp/beer-song/build/CMakeFiles/test_beer-song.dir
+/home/philcrissman/exercism/cpp/beer-song/build/CMakeFiles/edit_cache.dir
+/home/philcrissman/exercism/cpp/beer-song/build/CMakeFiles/rebuild_cache.dir
