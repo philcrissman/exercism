@@ -20,7 +20,6 @@ namespace sieve {
             {
                 int step = p.at(i);
                 int k = i;
-                // p2.push_back(p[k]);
                 while (k < n)
                 {
                     k += step;
