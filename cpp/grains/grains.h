@@ -1,8 +1,6 @@
-#if !defined(GRAINS_H)
-#define GRAINS_H
+#pragma once
 
 namespace grains {
-
-}  // namespace grains
-
-#endif // GRAINS_H
+    unsigned long long square(int i);
+    unsigned long long total();
+}

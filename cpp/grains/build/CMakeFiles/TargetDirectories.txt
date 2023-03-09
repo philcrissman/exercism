@@ -1,0 +1,4 @@
+/home/philcrissman/exercism/cpp/grains/build/CMakeFiles/grains.dir
+/home/philcrissman/exercism/cpp/grains/build/CMakeFiles/test_grains.dir
+/home/philcrissman/exercism/cpp/grains/build/CMakeFiles/edit_cache.dir
+/home/philcrissman/exercism/cpp/grains/build/CMakeFiles/rebuild_cache.dir
