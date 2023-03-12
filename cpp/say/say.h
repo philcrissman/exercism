@@ -3,5 +3,5 @@
 #include <string>
 
 namespace say {
-    std::string in_english(unsigned long long n);
+    std::string in_english(long long n);
 }

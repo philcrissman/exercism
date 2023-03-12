@@ -152,7 +152,13 @@ CMakeFiles/say.dir/say.cpp.o: ../say.cpp \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
-  /usr/include/c++/11/bits/basic_string.tcc
+  /usr/include/c++/11/bits/basic_string.tcc \
+  /usr/include/c++/11/stdexcept \
+  /usr/include/c++/11/exception \
+  /usr/include/c++/11/bits/exception_ptr.h \
+  /usr/include/c++/11/bits/cxxabi_init_exception.h \
+  /usr/include/c++/11/typeinfo \
+  /usr/include/c++/11/bits/nested_exception.h
 
 CMakeFiles/say.dir/say_test.cpp.o: ../say_test.cpp \
   /usr/include/stdc-predef.h \
@@ -1267,6 +1273,18 @@ CMakeFiles/say.dir/test/tests-main.cpp.o: ../test/tests-main.cpp \
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
+/usr/include/c++/11/pstl/glue_algorithm_defs.h:
+
+/usr/include/c++/11/stdexcept:
+
+/usr/include/c++/11/exception:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/c++/11/typeinfo:
+
+/usr/include/c++/11/bits/nested_exception.h:
+
 ../test/catch.hpp:
 
 /usr/include/c++/11/vector:
@@ -1301,14 +1319,6 @@ CMakeFiles/say.dir/test/tests-main.cpp.o: ../test/tests-main.cpp \
 
 /usr/include/c++/11/bits/unique_ptr.h:
 
-/usr/include/c++/11/exception:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/c++/11/typeinfo:
-
-/usr/include/c++/11/bits/nested_exception.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
 
 /usr/include/c++/11/bits/ios_base.h:
@@ -1334,10 +1344,6 @@ CMakeFiles/say.dir/test/tests-main.cpp.o: ../test/tests-main.cpp \
 /usr/include/c++/11/utility:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
-
-/usr/include/c++/11/pstl/glue_algorithm_defs.h:
-
-/usr/include/c++/11/stdexcept:
 
 /usr/include/string.h:
 

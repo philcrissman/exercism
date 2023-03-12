@@ -20,7 +20,7 @@ TEST_CASE("fourteen")
 {
     REQUIRE("fourteen" == say::in_english(14ULL));
 }
-#if defined(EXERCISM_RUN_ALL_TESTS)
+
 TEST_CASE("twenty")
 {
     REQUIRE("twenty" == say::in_english(20ULL));
@@ -94,4 +94,5 @@ TEST_CASE("raises_an_error_for_one_trillion")
     REQUIRE_THROWS_AS(say::in_english(1000ULL * 1000ULL * 1000ULL * 1000ULL),
                       std::domain_error);
 }
+#if defined(EXERCISM_RUN_ALL_TESTS)
 #endif
