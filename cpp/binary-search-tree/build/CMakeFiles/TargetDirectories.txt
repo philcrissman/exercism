@@ -1,0 +1,4 @@
+/home/philcrissman/exercism/cpp/binary-search-tree/build/CMakeFiles/binary-search-tree.dir
+/home/philcrissman/exercism/cpp/binary-search-tree/build/CMakeFiles/test_binary-search-tree.dir
+/home/philcrissman/exercism/cpp/binary-search-tree/build/CMakeFiles/edit_cache.dir
+/home/philcrissman/exercism/cpp/binary-search-tree/build/CMakeFiles/rebuild_cache.dir
